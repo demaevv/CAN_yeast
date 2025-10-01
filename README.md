@@ -14,7 +14,7 @@ pipeline:
 10) CAN1 deletion check (+ adjacent regions [+- 50kb])
 11) assembly vs ref [MUMmer4]
 
-scripts:
+scripts:  
 1-4 -> 00_preproc_qc.sbatch  
 5 -> 01_assemble_flye.sbatch  
 6 -> 02_polish.sbatch  
