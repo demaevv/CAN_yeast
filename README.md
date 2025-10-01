@@ -15,12 +15,12 @@ pipeline:
 11) assembly vs ref [MUMmer4]
 
 scripts:
-1-4 -> 00_preproc_qc.sbatch
-5 -> 01_assemble_flye.sbatch
-6 -> 02_polish.sbatch
-7 -> 03_quast.sbatch
-8 -> 04_map_reads.sbatch
-9 -> 05_call_sv.sbatch 
-10 -> 06_merge_filter_CAN1.sbatch
-final result -> 07_can_locus_report.sbatch
-html report -> 07b_can_locus_html.sbatch
+1-4 -> 00_preproc_qc.sbatch  
+5 -> 01_assemble_flye.sbatch  
+6 -> 02_polish.sbatch  
+7 -> 03_quast.sbatch  
+8 -> 04_map_reads.sbatch  
+9 -> 05_call_sv.sbatch   
+10 -> 06_merge_filter_CAN1.sbatch  
+final result -> 07_can_locus_report.sbatch  
+html report -> 07b_can_locus_html.sbatch  
